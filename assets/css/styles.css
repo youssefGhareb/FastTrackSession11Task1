@@ -1,0 +1,175 @@
+.site-card-light {
+  background-color: #f0f3fa;
+  color: #000;
+}
+.site-card-light .username-wrapper span {
+  color: #5a5d6c;
+}
+.site-card-light .number-value-wrapper {
+  font-size: 42px;
+  font-weight: bold;
+  color: #151821;
+}
+.site-card-light .value-label-wrapper {
+  font-size: 23px;
+  letter-spacing: 3px;
+  color: #6d7079;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.site-card-dark {
+  background-color: #252b43;
+  color: #fff;
+}
+.site-card-dark .username-wrapper span {
+  color: #848cb2;
+}
+.site-card-dark .number-value-wrapper {
+  font-size: 42px;
+  font-weight: bold;
+  color: #fff;
+}
+.site-card-dark .value-label-wrapper {
+  font-size: 23px;
+  letter-spacing: 3px;
+  color: #848cb2;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#row-wrapper {
+  margin-top: -150px;
+}
+
+.instagram {
+  position: relative;
+}
+.instagram::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.facebook {
+  border-top: 3px solid #3b5998;
+}
+
+.youtube {
+  border-top: 3px solid #ff0000;
+}
+
+.twitter {
+  border-top: 3px solid #00acee;
+}
+
+.header-wrapper-light {
+  background-color: #f8f9fe;
+  padding-bottom: 150px;
+}
+.header-wrapper-light .header h2 {
+  font-weight: bolder;
+  color: #22222c;
+}
+.header-wrapper-light .header span {
+  color: #6a6c97;
+  font-weight: 600;
+}
+
+.header-wrapper-dark {
+  background-color: #20222f;
+  color: #fff;
+  padding-bottom: 150px;
+}
+.header-wrapper-dark .header h2 {
+  font-weight: bolder;
+  color: #fff;
+}
+.header-wrapper-dark .header span {
+  color: #6a6c97;
+  font-weight: 600;
+}
+
+.body-dark {
+  background-color: #1d2029;
+}
+
+.body-light {
+  background-color: #fff;
+}
+
+* {
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+#section2 h2 {
+  color: #5a5d6c;
+  font-size: 20px;
+  font-weight: bold;
+}
+#section2 .overview-card-light {
+  padding: 30px 25px;
+  background-color: #f0f3fa;
+  border-radius: 5px;
+}
+#section2 .overview-card-light .card-label {
+  color: #707384;
+  font-size: 15px;
+  font-weight: 700;
+}
+#section2 .overview-card-light .card-icon {
+  font-size: 30px;
+}
+#section2 .overview-card-light .card-number {
+  font-size: 25px;
+  color: #000;
+  font-weight: 700;
+}
+#section2 .overview-card-light .card-percentage-wrapper {
+  color: #519b8a;
+}
+#section2 .overview-card-light .card-percentage-wrapper .card-percentage {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+#section2 .overview-card-dark {
+  padding: 30px 25px;
+  background-color: #252b43;
+  border-radius: 5px;
+}
+#section2 .overview-card-dark .card-label {
+  color: #707384;
+  font-size: 15px;
+  font-weight: 700;
+}
+#section2 .overview-card-dark .card-icon {
+  font-size: 30px;
+  color: #fff;
+}
+#section2 .overview-card-dark .card-number {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+#section2 .overview-card-dark .card-percentage-wrapper {
+  color: #519b8a;
+}
+#section2 .overview-card-dark .card-percentage-wrapper .card-percentage {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+
+.error-msg {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  display: none;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=styles.css.map */
